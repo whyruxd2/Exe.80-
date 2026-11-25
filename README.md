@@ -1,6 +1,6 @@
 // ตัวแปรสำหรับเก็บสถานะ (วางไว้ก่อนเข้าลูป while หลักของโปรแกรม)
 static char accessKey[64] = "";
-static float timeLeft = 86397.0f; // 23:59:57 วินาที
+static float timeLeft = 86397.0f; // 23:59:59 วินาที
 static std::string statusMsg = "AWAITING AUTHENTICATION";
 
 // --- ส่วนแสดงผล UI (วางไว้ในลูปการวาดเฟรมของ ImGui) ---
