@@ -66,7 +66,7 @@ if (ImGui::Begin("SECURITY ALERT SIMULATION (SAFE MODE)", nullptr, ImGuiWindowFl
         if (std::string(accessKey) == "1234") {
             exit(0); // ปลดล็อกและปิดโปรแกรมทันที
         } else {
-            statusMsg = "INVALID KEY - TRY '1234'";
+            statusMsg = "INVALID KEY - TRY '26852'";
         }
     }
     ImGui::PopStyleColor(2);
